@@ -18,7 +18,7 @@ with st.sidebar:
                                     type="password",
                                     value="sk-sxe8evtSOHjvwW6M56FdD5270b8a4f1aBeE704Ff36310147")
 with st.sidebar:
-    st.markdown('[📑 AI智能PDF问答工具](https://platform.openai.com/account/api-keys)')
+    st.markdown('[📑 AI智能PDF问答工具](https://pdfapptool.streamlit.app)')
 
 data=st.file_uploader("上传你的CSV文件：", type="csv")
 if data:
